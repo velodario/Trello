@@ -1,0 +1,71 @@
+.board-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.create-board-btn {
+  color: #fff;
+  background-color: #1677ff;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+  margin-bottom: 16px;
+}
+
+.create-board-btn-edit {
+  color: #fff;
+  background-color: #1677ff;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+.create-board-btn-delete {
+  left: 7.5rem;
+  color: #fff;
+  background-color: #820808;
+  box-shadow: 0 2px 0 rgba(5, 145, 255, 0.1);
+}
+
+.board-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.board-card-container {
+  position: relative;
+  margin: 20px;
+}
+
+.board-card {
+  width: 300px;
+  height: 150px;
+  background-color: #3498db;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+.board-card:hover {
+  background-color: #2980b9;
+}
+
+.board-card-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.board-card-actions button {
+  color: #2a0505;
+}
+
+.board-card .ant-card-head-title {
+  color: #fff;
+}
+
+.header-style {
+  text-align: center;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  height: 64;
+  line-height: "64px";
+  background-color: #7dbcea;
+}
